@@ -1,0 +1,135 @@
+@media all and (min-width: 431px) {
+  .header {
+    &_button {
+      &_btn2 {
+        display: none;
+      }
+    }
+  }
+  .hero_text1 {
+    display: none;
+  }
+  .footer {
+    .footer_text1 {
+      display: none;
+    }
+  }
+}
+@media (max-width: 431px) {
+  .container {
+    max-width: 430px;
+  }
+  .header {
+    &_link {
+      display: none;
+    }
+    &_button {
+      &_btn1 {
+        display: none;
+      }
+    }
+  }
+  .hero_text {
+    display: none;
+  }
+  .hero_text1 {
+    margin: 0;
+    padding: 0;
+    img{
+        width: 100%;
+    }
+  }
+  .hero {
+    gap: 0px;
+    padding: 0;
+    &_top {
+      padding: 40px 16px;
+      h1 {
+        font-size: 28px;
+        margin-bottom: 6px;
+      }
+      p {
+        font-size: 14px;
+        margin-bottom: 30px;
+        padding-right: 16px;
+      }
+      .hero_top_2 {
+        width: 260px;
+      }
+      .hero_top_3 {
+        width: 280px;
+      }
+      div {
+        h6 {
+          font-size: 16px;
+        }
+      }
+    }
+    &_bottom {
+      &_experience {
+        padding-top: 40px;
+        gap: 0px;
+        h6 {
+          padding-left: 70px;
+          font-size: 20px;
+        }
+        &_card {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          &_1 {
+            padding: 20px;
+            h4 {
+              font-size: 16px;
+            }
+            img {
+              width: 54px;
+              height: 54px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    &_text{
+        display: none;
+    }
+    &_top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        &_link {
+          display: flex;
+          flex-direction: column;
+          margin-top: 20px;
+          a {
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            color: var(--grey-90, #E6E6E6);
+          }
+          &_aa{
+            margin-left: 75px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+      &_bottom {
+        display: flex;
+        flex-direction: column;
+        &_link {
+          
+        display: flex;
+        flex-direction: column;
+        }
+        p {
+          font-size: 12px;
+          margin-top: 20px;
+        }
+      }
+  }
+}

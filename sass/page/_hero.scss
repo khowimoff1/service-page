@@ -1,0 +1,98 @@
+.hero {
+  display: block;
+  gap: 40px;
+  border: 1px solid var(--grey-15, #262626);
+  
+  &_top {
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    h1 {
+      color: var(--absolute-white, #fff);
+      font-size: 38px;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 10px;
+    }
+    p {
+      color: var(--grey-90, #e6e6e6);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: -0.096px;
+      margin-bottom: 98px;
+      padding-right: 250px;
+    }
+    .hero_top_2 {
+      width: 260px;
+    }
+    .hero_top_3 {
+      width: 280px;
+    }
+    div {
+      display: flex;
+      width: 219px;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 6px;
+      background: var(--grey-15, #262626);
+      h6 {
+        color: var(--absolute-white, #fff);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+  &_bottom {
+    &_experience {
+      display: flex;
+      padding-top: 40px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+      align-self: stretch;
+      border-top: 1px solid var(--grey-15, #262626);
+      h6 {
+        padding-left: 40px;
+        color: var(--grey-60, #98989a);
+        font-size: 22px;
+        font-weight: 500;
+        line-height: normal;
+      }
+      &_card0{
+        display: flex;
+      }
+      &_card {
+        display: flex;
+        &_1 {
+          display: flex;
+          padding: 40px;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 24px;
+          flex: 1 0 0;
+          border: 1px solid var(--grey-15, #262626);
+          h4 {
+            color: var(--grey-90, #e6e6e6);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 150%;
+            letter-spacing: -0.096px;
+          }
+        }
+      }
+      .hero_botttom {
+        .hero_bottom_experience_card_1 {
+          padding: 40px 60px 40px 40px;
+        }
+      }
+    }
+  }
+}
+.hero_text{
+  margin-top: 20px;
+}
